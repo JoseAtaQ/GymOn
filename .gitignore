@@ -1,0 +1,10 @@
+# Root-level ignores
+.DS_Store
+.idea/
+.vscode/
+
+# Backend-specific ignores (pointing to the subfolder)
+back_end/.env
+back_end/target/
+back_end/src/main/resources/application.properties
+back_end/*.class
